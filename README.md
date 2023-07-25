@@ -25,8 +25,7 @@
 
 ## 🚀 How the Project Works <a name = "working"></a>
 
-When the Python script `mail_notifier.py` is executed on the Raspberry Pi, it connects to the user's email inbox via the IMAP protocol. The script checks for new unread messages and uses the LED connected to a GPIO pin on the Raspberry Pi to indicate their presence.
-If there are unread messages in the inbox (excluding those to be ignored based on the `MAIL_OFFSET` setting), the LED turns on to notify the user. Otherwise, the LED remains off.
+When the Python script `mail_notifier.py` is executed on the Raspberry Pi, it connects to the user's email inbox via the IMAP protocol. The script checks for unread messages and if there are (excluding those to be ignored based on the `MAIL_OFFSET` setting), the LED connected to a GPIO pin turns on to notify the user. Otherwise, the LED remains off.
 The script runs in an infinite loop, checking for new emails, by default, every 10 seconds. As soon as the user reads or manages the unread emails the LED reflects the change.
 
 ## 📋  Requirements <a name = "requirements"></a>
@@ -74,7 +73,8 @@ Open `mail_notifier.py` and modify the following variables with your information
    ```
 ## 🎨 Customizations <a name = "customizations"></a>
 
-Feel free to experiment and tailor the project to meet your needs and create a personalized system using your RPI, by design you can change some variables inside `mail_notifier.py` to adjust the code to your needs.
+Feel free to experiment and tailor the project to meet your needs and create a personalized system using your RPI.
+By design you can change some variables inside `mail_notifier.py` to adjust the code to your needs:
 
 - **Check Interval**: If you wish to modify the time interval between email checks, you can change the value of the `sleep` function called in line 26. Adjusting the check interval allows you to control how frequently the program checks for new emails.
 
