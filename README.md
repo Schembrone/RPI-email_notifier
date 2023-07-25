@@ -62,7 +62,7 @@ git clone https://github.com/Schembrone/RPI-email_notifier.git
 Open `mail_notifier.py` and modify the following variables with your information:
    ```python
    USERNAME = 'your_email_username'          # the username of your email account
-   PASSWORD = 'your_email_password'          # the password of your email account
+   PASSWORD = 'your_email_password'          # the password of your email account, WARNING if you have 2FA enabled you need to generate an application-specific password
    HOST = 'imap.host.com'                    # your IMAP server in the form "imap.host.com"
    LED_PIN = 21                              # the GPIO pin that you want to use to control the LED
    ```
