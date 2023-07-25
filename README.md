@@ -46,7 +46,7 @@ These instructions will get you a copy of the project up and running on your RPI
 - LED Configuration:
   Connect the LED to the Raspberry Pi, ensuring the use of an appropriate resistor.<br>
   
-  WARNING! if you are not using [BCM](https://www.raspberrypi.com/documentation/computers/images/GPIO.png) pin 21 you need to modify line 10 in `mail_notifier.py`
+  WARNING! if you are not using [BCM](https://www.raspberrypi.com/documentation/computers/images/GPIO.png){:target="_blank"} pin 21 you need to modify line 10 in `mail_notifier.py`
 
 ### Installing
 Clone this Repository to your RPI file system
