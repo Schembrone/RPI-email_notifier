@@ -25,7 +25,7 @@
 
 ## 🚀 How the Project Works <a name = "working"></a>
 
-When the Python script `pimailnotifier.py` is executed on the Raspberry Pi, it connects to the user's email inbox via the IMAP protocol. The script checks for new unread messages and uses the LED connected to a GPIO pin on the Raspberry Pi to indicate their presence.
+When the Python script `mail_notifier.py` is executed on the Raspberry Pi, it connects to the user's email inbox via the IMAP protocol. The script checks for new unread messages and uses the LED connected to a GPIO pin on the Raspberry Pi to indicate their presence.
 If there are unread messages in the inbox (excluding those to be ignored based on the `MAIL_OFFSET` setting), the LED turns on to notify the user. Otherwise, the LED remains off.
 The script runs in an infinite loop, checking for new emails, by default, every 10 seconds. As soon as the user reads or manages the unread emails the LED reflects the change.
 
