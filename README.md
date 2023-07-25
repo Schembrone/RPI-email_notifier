@@ -48,6 +48,11 @@ These instructions will get you a copy of the project up and running on your RPI
   WARNING! if you are not using [BCM](https://www.raspberrypi.com/documentation/computers/images/GPIO.png) pin 21 you need to modify line 10 in `mail_notifier.py`
 
 ### Installing
+If you haven't already installed it, install git
+
+```
+sudo apt install git
+```
 Clone this Repository to your RPI file system
 
 ```
@@ -64,11 +69,11 @@ Open `mail_notifier.py` and modify the following variables with your information
 
 ## ⚙️ Usage <a name = "usage"></a>
 
-1. Ensure that the LED is correctly connected to the Raspberry Pi.
+1. Ensure that the LED is correctly connected to the Raspberry Pi. 
 
-2. Run the Python script:
+3. Run the Python script:
    ```
-   python mail_notifier.py
+   python path/to/RPI-email_notifier/mail_notifier.py
    ```
 ## 🎨 Customizations <a name = "customizations"></a>
 
