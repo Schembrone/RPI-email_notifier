@@ -40,7 +40,6 @@ These instructions will get you a copy of the project up and running on your RPI
 ### Prerequisites
 - Install Dependencies:
   ```
-  pip install gpiozero
   pip install IMAPClient
   ```
 - LED Configuration:
